@@ -125,6 +125,6 @@ Libraries::add('app', array('default' => true));
 
 // Libraries::add('accounts');
 
-Libraries::add('flash');
+//Libraries::add('flash');
 
 
