@@ -14,9 +14,8 @@
 
 5. Please install PHP8.1/PHP8.2 version. (We have used PHP8.1 version)
 
-6. Install the flash library that is available in the project root folder as flash.zip, Unzip that file and place the flash libary folder inside 'libraries' folder.
 
-7. Setup the database, the database sql export file is kept inside Database folder, create a new database with the name as "database".
+6. Setup the database, the database sql export file is kept inside Database folder, create a new database with the name as "database".
 
 8. Run the project in localhost.
 
@@ -24,14 +23,10 @@
 
 ##Issues/Observations
 
-1. We are trying to render the flash message into a view page, but getting issue while rendering the flash library messages into view page. We have writen a sample Flash::output() fuction in views/pages/home.html.php line no 248
+Please go to the project folder and run below li3 command in terminal
 
-We are getting below 
+bin/li3 TestCommand --test-data='data'
 
-lithium\template\TemplateException (code 500)
-Undefined rendering step 'flash'.
+The param "test-data" that i am sending from terminal, I am unable to receive at the controller end.
 
-Note:
-Previously, we are having issue while reading the flash messages, we have done changes in the session adapter file from line no 259 to 262 in below file path, after that we are able to read the flash messages. but unable to render them in view page.
-
-app/extensions/adapter/storage/session/model.php
+Please look into this.
