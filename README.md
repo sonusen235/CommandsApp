@@ -25,4 +25,6 @@
 
 The param "test-data" that i am sending from terminal, I am unable to receive at the controller end.
 
+Note : Please run this project in ubuntu/linux machines, I tried to run the same project in xampp windows, but getting some issues while setting env variable.
+
 Please look into this.
