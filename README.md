@@ -15,17 +15,13 @@
 5. Please install PHP8.1/PHP8.2 version. (We have used PHP8.1 version)
 
 
-6. Setup the database, the database sql export file is kept inside Database folder, create a new database with the name as "database".
+6. Please go to the project folder and run below li3 command in terminal
 
-8. Run the project in localhost.
+   bin/li3 TestCommand --test-data='data'
 
 
 
 ##Issues/Observations
-
-Please go to the project folder and run below li3 command in terminal
-
-bin/li3 TestCommand --test-data='data'
 
 The param "test-data" that i am sending from terminal, I am unable to receive at the controller end.
 
